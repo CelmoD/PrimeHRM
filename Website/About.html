@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .heart-rate-monitor {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .heart-rate {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #f00;
+        }
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About our heart rate monitor</h1>
+    </header>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html" class="active">About</a>
+        <a href="Information.html">Information</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Prime HRM</h2>
+            <p>The Prime Heart Rate Monitor is a project done for GT block about designing and<br>creating our own piece of werable assessment technology.<br>The project took many weeks to prepare.</p>
+            <br>
+            <p>Our heart rate monitor uses a sensor to measure your heart rate in real-time.<br>The data is then displayed on the monitor screen,<br>allowing you to see your heart rate with a quick glance. The monitor also<br>gives information on how to increase or decrease heart rate.</p>
+            <div class="container">
+                <div class="heart-rate-monitor">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Celmo and Jack's Heart Rate Monitor</p>
+    </footer>
+    <script src="heart-rate.js"></script>
+</body>
+</html>

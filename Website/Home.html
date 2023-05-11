@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Celmo and Jack's Heart Rate Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0083ee;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #cfcfcf;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #0096e0;
+            color: #333;
+        }
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .heart-rate-monitor {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .heart-rate {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #f00;
+        }
+        h1 {text-align: center;}
+        img {text-align: center;}
+        h2 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>More about the project</h1>
+    </header>
+    <nav>
+        <a href="Home.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="Information.html">Information</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+    <main>
+        <section>
+            <h2 style="color:whitesmoke;">Welcome to our heart rate monitor website!</h2>
+            <p style="color:whitesmoke;">We needed a way to make sure the heart rate monitor was able to detect human<br>pulse for when someone puts there hand on the scanner we<br>thought of various different way and ended up reverse engineering a finger pulse monitor and took out some of the components in the monitor and added them into our product after various different attempts were made we finally were able to make a heart rate monitor accurate enough to scan human pulse.</p>
+            <div class="container">
+                <div class="heart-rate-monitor">
+                    <style>
+                        body {
+                          background-image: url('https://cdn.britannica.com/25/214625-050-A37D76CC/heart-rate-monitor-illustration-heartbeat.jpg');
+                          background-repeat: no-repeat;
+                          background-attachment: fixed;
+                          background-size: 100% 100%;
+                        }
+                    </style>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Celmo and Jack's Heart Rate Monitor</p>
+    </footer>
+    <script src="heart-rate.js"></script>
+</body>
+</html>
